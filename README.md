@@ -10,6 +10,16 @@ headset's call link (SCO). Many apps never ask. Beeper, for example, records voi
 messages with the phone's mic even when earbuds are connected. Earbud mic opens the call
 link for them.
 
+## Install
+
+1. On your phone, download the APK file from
+   [the latest release](https://github.com/worldofgeese/earbud-mic/releases/latest).
+2. Open the file. If Android asks, let your browser or file app install unknown apps.
+3. Open Quick Settings, tap the edit (pencil) button and drag **Earbud mic** into your
+   tiles.
+4. Optional: to get the **Turn off** button in a notification, open Settings → Apps →
+   Earbud mic → Notifications and turn notifications on.
+
 ## Use
 
 1. Connect your Bluetooth headset.
@@ -32,7 +42,7 @@ apps can still record.
 
 The app has no internet permission and collects no data.
 
-## Build and install
+## Build from source
 
 You need [Nix](https://nixos.org/) with flakes enabled. `build.sh` gets the Android SDK
 from Nixpkgs, which accepts the Android SDK licence for you. To use an SDK you already
